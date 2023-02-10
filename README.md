@@ -1,4 +1,4 @@
-<img align="right" src="https://media.tenor.com/DimzPZMypFcAAAAM/laptop.gif" alt="Gif gatinho" width="120">
+<img align="right" src="https://media.tenor.com/DimzPZMypFcAAAAM/laptop.gif" alt="Gif gatinho">
 
 ### Desafio: Criando o footer da página
 <hr>
