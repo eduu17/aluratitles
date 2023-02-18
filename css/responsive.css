@@ -1,0 +1,34 @@
+@media (min-width: 600px) {
+  .container {
+    max-width: 1260px;
+    margin: 0 auto;
+  }
+
+  .header__content {
+    flex-direction: row;
+    height: 80px;
+  }
+
+  /* Main */
+  .card__Content {
+    padding: 2rem 0;
+    justify-content: center;
+  }
+
+  .content--Card {
+    width: 400px;
+    height: 450px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    padding: 1.25rem;
+    border-radius: 4px;
+    background-color: #fff;
+  }
+
+  /* Footer */
+
+  footer {
+    justify-content: space-evenly;
+  }
+}

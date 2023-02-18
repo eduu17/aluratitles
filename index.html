@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -7,23 +7,97 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="logos/logo-desenvolve-simplificada.svg" type="image/x-icon">
     <title>Trilhas [Desenvolve 2023]</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/global.css">
 </head>
 
 <body>
     <header>
-        <div class="container-elementos-header">
+        <div class="header__content container">
             <img src="logos/logo-desenvolve-simplificada.svg" alt="Logo Desenvolve simplificada.">
 
-            <h1 class="titulo-principal">Trilhas [Desenvolve 2023]</h1>
+            <h1 class="header__title">Trilhas [Desenvolve 2023]</h1>
 
-            <label class="label-pesquisa">
+            <label class="header__search">
                 <img src="icones/lupa.svg" alt="Ícone lupa.">
-                <input type="text" class="input-pesquisa" placeholder="Pesquisar">
+                <input type="text" class="search__input" placeholder="Pesquisar">
             </label>
         </div>
     </header>
 
+    <main class="container">
+        <section class="card__Content" aria-label="Courses">
+            <div class="content--Card">
+                <h2 class="card--Title">DevOps</h2>
+                <p>A pessoa que trabalha na área de DevOps pode atuar ao mesmo tempo no desenvolvimento dos sistemas e nas suas infraestruturas, sendo responsável por otimizar a produtividade (desenvolvimento) e a confiabilidade (infraestrutura).</p>
+
+                <p>Aprenda lógica de programação, Git e Github, Linux, Redes, Dockers, Kubernetes e Cloud (nuvem).</p>
+
+                <a class="button" href="#">Conferir ementa</a>
+            </div>
+            <div class="content--Card">
+                <h2 class="card--Title">Full Stack</h2>
+                <p>A pessoa desenvolvedora Full Stack é responsável por toda a construção da solução e suas integrações.</p>
+
+                <p>Aprenda lógica de programação, javascript, HTML/CSS, Node.js, Git e Github.</p>
+
+                <a class="button" href="#">Conferir ementa</a>
+            </div>
+            <div class="content--Card">
+                <h2 class="card--Title">E-Commerce</h2>
+                <p>A pessoa que trabalha na área de e-commerce é responsável pela gestão da plataforma online de vendas (site, app ou marketplace), além de garantir a performance dos indicadores que compõem todo funil de vendas: tráfego, conversão, receita e ticket médio.</p>
+
+                <p>Agilidade para tomar decisões, espírito empreendedor e visão centrada em dados são características presentes do profissional de e-commerce.</p>
+
+                <a class="button" href="#">Conferir ementa</a>
+            </div>
+            <div class="content--Card">
+                <h2 class="card--Title">Segurança da Informação</h2>
+                <p>A pessoa que trabalha com Segurança da Informação (SI) atua na proteção dos dados e sistemas da empresa ou instituição, visando garantir sua Confidencialidade, Integridade e Disponibilidade.</p>
+
+                <p>Aprenda como acontecem os golpes digitais, bem como combatê-los e preveni-los. Em um mundo cada vez mais digital, onde os ataques e golpes cibernéticos só crescem, junto ao surgimento de leis de proteção de dados, trabalhar com SI nunca esteve tão em alta.</p>
+
+                <a class="button" href="#">Conferir ementa</a>
+            </div>
+            <div class="content--Card">
+                <h2 class="card--Title">User Experience</h2>
+                <p>A pessoa que trabalha com UX Design desenha a experiência de usuários considerando negócios, tecnologia e pessoas.</p>
+
+                <p>Através de muita pesquisa, trabalha com processos que envolvem análise de dados, prototipação, entrevistas e aprendizados.</p>
+
+                <a class="button" href="#">Conferir ementa</a>
+            </div>
+            <div class="content--Card">
+                <h2 class="card--Title">Dados</h2>
+                <p>A pessoa que trabalha na área de Dados é responsável por estruturar coletas, entender padrões e criar dashboards para extrair conhecimento de todo tipo de dado.</p>
+
+                <p>Aprenda lógica de programação, estrutura de dados, SQL e MySQL, Python, Google BigQuery e Data Studio e Data Visualization.</p>
+
+                <a class="button" href="#">Conferir ementa</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <section class="logoContent">
+            <img src="./logos/logo-grupo-boticario.png" alt="Logo do grupo boticário">
+            <img src="./logos/alura.svg" alt="Logo da Alura">
+            <img src="./logos/logo-desenvolve-detalhada.png" alt="Logo do programa desenvolve - O Boticário">
+        </section>
+        <section class="infoContent">
+            <div class="infoContent__reg">
+                <p>Programa Desenvolve</p>
+                Regulamento
+            </div>
+            <section class="infoContent__social">
+                <ul class="social__logo">
+                    <li><a href="#"><img src="./icones/instagram.svg" alt=""></a></li>
+                    <li><a href="#"><img src="./icones/facebook.svg" alt=""></a></li>
+                    <li><a href="#"><img src="./icones/youtube.svg" alt=""></a></li>
+                </ul>
+                <p>Grupo Boticário</p>
+            </section>
+        </section>
+    </footer>
 </body>
 
 </html>
